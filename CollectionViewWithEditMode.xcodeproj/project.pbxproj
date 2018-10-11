@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C9469350216F673300C8DD37 /* TableViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C946934F216F673300C8DD37 /* TableViewAdapter.swift */; };
+		C9469352216F674500C8DD37 /* SongCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9469351216F674500C8DD37 /* SongCell.swift */; };
+		C9469358216F73F200C8DD37 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9469357216F73F200C8DD37 /* Song.swift */; };
 		C99A98322162960500EF3E4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99A98312162960500EF3E4E /* AppDelegate.swift */; };
 		C99A98342162960500EF3E4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99A98332162960500EF3E4E /* ViewController.swift */; };
 		C99A98372162960500EF3E4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C99A98352162960500EF3E4E /* Main.storyboard */; };
@@ -27,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C946934F216F673300C8DD37 /* TableViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewAdapter.swift; sourceTree = "<group>"; };
+		C9469351216F674500C8DD37 /* SongCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongCell.swift; sourceTree = "<group>"; };
+		C9469357216F73F200C8DD37 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		C99A982E2162960500EF3E4E /* CollectionViewWithEditMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewWithEditMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C99A98312162960500EF3E4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C99A98332162960500EF3E4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +86,9 @@
 			isa = PBXGroup;
 			children = (
 				C99A98312162960500EF3E4E /* AppDelegate.swift */,
+				C946934F216F673300C8DD37 /* TableViewAdapter.swift */,
+				C9469357216F73F200C8DD37 /* Song.swift */,
+				C9469351216F674500C8DD37 /* SongCell.swift */,
 				C99A98332162960500EF3E4E /* ViewController.swift */,
 				C99A98352162960500EF3E4E /* Main.storyboard */,
 				C99A983B2162960700EF3E4E /* Assets.xcassets */,
@@ -202,6 +211,9 @@
 			files = (
 				C99A98342162960500EF3E4E /* ViewController.swift in Sources */,
 				C99A983A2162960500EF3E4E /* CollectionViewWithEditMode.xcdatamodeld in Sources */,
+				C9469350216F673300C8DD37 /* TableViewAdapter.swift in Sources */,
+				C9469358216F73F200C8DD37 /* Song.swift in Sources */,
+				C9469352216F674500C8DD37 /* SongCell.swift in Sources */,
 				C99A98322162960500EF3E4E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +314,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Debug;
 		};
@@ -367,6 +380,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C6W5C2HL75;
 				INFOPLIST_FILE = CollectionViewWithEditMode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -385,6 +399,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C6W5C2HL75;
 				INFOPLIST_FILE = CollectionViewWithEditMode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
